@@ -1,0 +1,88 @@
+html, body {
+	height: 100%;
+	/*margin: 10px;*/
+}
+
+/**{*/
+	/*outline: 1px solid red;*/
+/*}*/
+
+.top {
+	height: 15% ;
+	padding: 10px;
+}
+
+.box {
+	height: 130px;
+	width: 347px;
+	float: left;
+}
+
+.red {
+	background: rgb(208,2,27);
+	margin-right: 20px;
+}
+
+.blue {
+	background: rgb(74,144,226);
+	margin-right: 20px;
+}
+
+.gray {
+	background: rgb(74,74,74);
+}
+.content {
+	height: 35%;
+	/*background: black;*/
+	width: 100%;
+	margin-top: 5%;
+}
+.content p {
+	padding: 20px;
+	font-family: "sans-serif"; 
+	font-size: 20;
+}
+.splitbox {
+	height: 35%;
+	padding: 10px;
+}
+
+.splitbox_blue {
+	height: 100%;
+	width: 70%;
+	background: rgb(74,144,226);
+	float: left;
+
+}
+.splitbox_red {
+	height: 100%;
+	width: 30%;
+	background: rgb(208,2,27); 
+	float: left;
+}
+.bottom_row {
+	height: 15%;
+	padding: 10px;
+}
+.bottom_blue {
+	height: 100%;
+	width: 60%;
+	background: rgb(74,144,226);
+	float: left;
+}
+.bottom_red {
+	height: 100%;
+	width: 40%;
+	background: rgb(208,2,27);
+	float:left;
+	/*padding: 10%;*/
+}
+
+.inner_black {
+	height: 100%;
+	width: 80%;
+	float: center;
+	background: rgb(74,74,74);
+	margin-left: 10%;
+	margin-right: 10%;
+}
